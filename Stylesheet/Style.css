@@ -1,0 +1,59 @@
+body{
+    background: linear-gradient(to right,skyblue, rgb(83, 83, 226));
+}
+h1, p{
+    color:#20033a;
+    }
+h5{
+    color: red;
+}
+input:hover {
+    box-shadow: 2px 2px 5px rgba(0, 0, 0, 0.94);
+}
+input[type=text]{
+    background-color: whitesmoke;
+    padding: 10px;
+    border: 2px solid red;
+    border-radius: 10px;
+    margin-bottom: 10px;
+}
+input[type=email]{
+    background-color: whitesmoke;
+    padding: 10px;
+    border: 2px solid red;
+    border-radius: 10px;
+    margin-bottom: 10px;
+}
+input[type=password]{
+    background-color: whitesmoke;
+    padding: 10px;
+    border: 2px solid red;
+    border-radius: 10px;
+    margin-bottom: 10px;
+}
+input[type=file]{
+    margin-bottom: 10px;
+}
+select {
+    background-color: whitesmoke;
+    padding: 5px;
+    border-radius: 4px;
+}
+input[type=submit]{
+    background: #0066A2;
+    color: white ;
+    border-style: outset;
+    border-color: #0066A2;
+    height: 50px;
+    width: 100px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    text-shadow: none;
+}
+.submit:hover{
+background: #179717;
+color: #fff;
+border: 1px solid #eee;
+border-radius: 20px;
+box-shadow: 5px 5px 5px #eee;
+text-shadow: none;
+}
